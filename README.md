@@ -166,11 +166,13 @@ Pour répondre à ces besoins, nous avons envisagé de réaliser les diagrammes 
 
 
 1. ## <a name="_toc144137563"></a><a name="_toc144149842"></a>**DIAGRAMME DE CLASSE** 
-(readme/Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.001.png)
+![Image Alt Text](./readme/Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.001.png)
+
 
 <a name="_toc144130668"></a>**Figure 45 diagramme de classe du A2D**
 1. ## <a name="_toc144137564"></a><a name="_toc144149843"></a>**DIAGRAMME DE CAS D’UTILISATION**
-![Screenshot 2023-08-24 165123](Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.002.png)
+![Image Alt Text](./readme/Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.001.png)
+Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.002.png)
 
 <a name="_toc144130669"></a>**Figure 46 Diagramme de cas d'utilisation du A2D**
 
