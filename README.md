@@ -212,7 +212,7 @@ L'environnement de développement choisi pour la réalisation de l'application �
 - Base de données : MYSQL
 - Outils de développement : Visual Studio Code, Git, Laragon, AdobePhotoshop
 
-![](./readme/Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.008.png)![](./readme/Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.009.png)![C:\Users\se39040\Downloads\ri32-logo-laragon.png](./readme/Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.010.png)![C:\Users\se39040\Downloads\download (1).png](./readme/Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.011.png)![C:\Users\se39040\Downloads\visual-studio-code7642.jpg]./readme/(Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.012.jpeg)
+![](./readme/Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.008.png)![](./readme/Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.009.png)![C:\Users\se39040\Downloads\ri32-logo-laragon.png](./readme/Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.010.png)![download (1).png](./readme/Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.011.png)![visual-studio-code7642.jpg](./readme/Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.012.jpeg)
 
 <a name="_toc144130675"></a>**Figure 52 Les outils utilisées**
 
@@ -422,7 +422,7 @@ La page "Question" offre une interface centralisée pour la gestion des question
 1. #### **Capture d’écran des interfaces**
 ![Screenshot 2023-08-27 203503](./readme/Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.031.png)
 
-![Screenshot 2023-08-27 203527](./readme/Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.032.png)![C:\Users\se39040\AppData\Local\Microsoft\Windows\INetCache\Content.Word\Screenshot 2023-08-27 203555.png](./readme/Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.033.png)
+![Screenshot 2023-08-27 203527](./readme/Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.032.png)![Screenshot 2023-08-27 203555.png](./readme/Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.033.png)
 
 <a name="_toc144130685"></a>**Figure 62 capture d’écran des interfaces gestion des questions A2D**
 1. ### <a name="_toc144137584"></a><a name="_toc144149863"></a>**La page Planning**
