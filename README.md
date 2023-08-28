@@ -94,9 +94,8 @@
 
 
 
-4**
 
-Chapitre 2 : Contexte général du projet Anti-Damage Day
+
 
 # <a name="_toc144137553"></a><a name="_toc144149831"></a>**INSTALLATION INSTRUCTIONS: ANTI-DAMAGEDAY-A2D PROJECT**
 These instructions will guide you through setting up the Anti-damageDay-A2D project on your local machine using XAMPP or Laragon.
