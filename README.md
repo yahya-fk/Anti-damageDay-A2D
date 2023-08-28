@@ -214,7 +214,7 @@ L'environnement de développement choisi pour la réalisation de l'application �
 - Base de données : MYSQL
 - Outils de développement : Visual Studio Code, Git, Laragon, AdobePhotoshop
 
-![](Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.008.png)![](./readme/Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.009.png)
+![](./readme/Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.008.png)![](./readme/Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.009.png)
 ![ri32-logo-laragon.png](./readme/Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.010.png)
 ![download (1).png](./readme/Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.011.png)
 ![visual-studio-code7642.jpg](./readme/Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.012.jpeg)
