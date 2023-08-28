@@ -236,15 +236,6 @@ Dans la phase de développement du back-end, notre objectif était de créer une
 
 - **Gestion des Données** : Nous avons conçu et mis en place une base de données MySQL pour stocker les informations liées aux utilisateurs, aux véhicules et aux données d'audit. Les données sont organisées de manière à permettre une récupération efficace et sécurisée lorsque nécessaire.
 - **Authentification et Sessions** : Lorsqu'un utilisateur se connecte, nous utilisons PHP pour vérifier les informations d'identification fournies. Si les informations sont valides, nous créons une session sécurisée qui permet à l'utilisateur d'accéder à différentes parties de l'application en toute sécurité. Cette session garantit que l'utilisateur reste connecté et peut accéder à ses données sans avoir à se reconnecter fréquemment.
-
-session\_start();
-
-$\_SESSION["id"] = $id;
-
-$\_SESSION['nom'] = $name;
-
-$\_SESSION['pnom'] = $fname;
-
 - **Validation des Données** : Avant d'insérer ou de mettre à jour des données dans la base de données, nous effectuons des vérifications rigoureuses pour garantir l'intégrité des données. Les données reçues sont validées et filtrées pour éviter les failles de sécurité telles que les injections SQL.
   1. #### **Captures d'écran des interfaces**
 ![Screenshot 2023-08-24 174135.png](./readme/Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.014.png)![Screenshot 2023-08-24 173909](./readme/Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.015.png)
@@ -263,26 +254,7 @@ Pour la conception du front-end de la page principale, nous avons choisi une app
 Pour la gestion de la page de menu, nous avons mis en place une logique côté serveur pour assurer une navigation sécurisée et la validation des données. Voici comment nous avons abordé cette section :
 
 - **Vérification de Session** : Lorsqu'un utilisateur accède à la page de menu, le back-end vérifie d'abord si une session est active. Si l'utilisateur n'est pas connecté, il est automatiquement redirigé vers la page de connexion pour garantir l'accès sécurisé aux fonctionnalités.
-
-`  `session\_start();
-
-`  `$user=$\_SESSION['id'];
-
-`  `$nom=$\_SESSION['nom'];
-
-`  `$pnom=$\_SESSION['pnom'];
-
 - **Partie liée à l'Audit** : Une partie spécifique de la page de menu est dédiée à la fonctionnalité d'audit. Nous avons mis en place une logique pour vérifier si une variable appelée "data" est transmise à la page via la méthode GET. Si cette variable existe, la page affiche un message de confirmation, indiquant que les données ont été sauvegardées avec succès.
-
-`          `<?php
-
-`           `if (isset($\_GET['data'])) {
-
-`            `echo"<p class='text-success'>Les données sont bien sauvegardées</p>";
-
-`           `}
-
-`          `?>
 1. #### ![](./readme/Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.016.png)**Capture d'écran de l’interface**
 
 
@@ -318,65 +290,8 @@ La gestion de l'interface d'audit implique une interaction fluide entre les sél
 - **Gestion des Sélections en Temps Réel** : Nous avons implémenté une fonction JavaScript qui s'exécute à chaque changement dans les éléments select (menus déroulants). Lorsqu'un utilisateur sélectionne une option, la valeur sélectionnée est capturée instantanément.
 
 - **Envoi de la Sélection vers la Page d'Action** : Une fois la sélection capturée, nous envoyons cette valeur vers une page d'action spécifique dédiée au traitement. Cette page d'action utilise la valeur pour déterminer les options à afficher dans le prochain élément select en se basant sur la relation entre les données.
-
-function ValueSender(){
-
-`  `let idZ=document.getElementById('Zone').value;
-
-`  `let id=document.getElementById('Atelier').value;
-
-`    `if(id>0 && idZ>0){
-
-`    `location.href="auditpageaction.php?id="+id+"&idZ="+idZ;}
-
-}
-
 - **Construction et Envoi des Données au Format JSON** : La page d'action crée une liste d'options appropriées en utilisant des données stockées dans des tableaux JavaScript. Ensuite, nous utilisons JSON.stringify pour convertir cette liste en une variable JSON et la renvoyons à la page d'audit à l'aide de la méthode GET.
-
-<script>
-
-`       `<?php
-
-`            `echo"var tab=[";
-
-`            `$c=0;
-
-`        `foreach ($stmt as $row){
-
-`            `echo "{id:" . $row["id\_Z"]. ",nom:'" .$row["zone"]."',idAtelier:".$row["id\_Atelier"]."},";
-
-`    `}
-
-`        `echo"]\n";
-
-?>
-
-let myjson=JSON.stringify(tab)
-
 - **Traitement des Données sur la Page d'Audit** : La page d'audit reçoit la variable JSON et la traite pour afficher les options dans le prochain élément select. Cette approche permet de maintenir la flexibilité et la fluidité de l'expérience utilisateur tout en évitant de recharger la page.
-
-` `if(isset($\_GET['id'])){
-
-`        `$id=$\_GET['id'];
-
-`    `echo"const Tab=JSON.parse('$id')\n";
-
-
-
-?>
-
-`    `let html=""
-
-`    `Tab.forEach(e => {
-
-`    `html+="<option value="+e.id+">"+e.nom+"</option>"
-
-`    `});
-
-`    `document.getElementById("Zone").innerHTML+=html;
-
-`    `document.getElementById("Atelier").value=Tab[0].idAtelier</script>
-
 Ce processus est répété pour chaque niveau de sélection dans les éléments select tels que "**Atelier**," "**Module**," "**UEP**," et "**Poste**".
 1. ##### **Interface Page Questionnaire**
 L'interface du questionnaire constitue une partie cruciale de l'application, permettant aux utilisateurs de remplir les réponses et de sauvegarder les données de l'audit. Voici comment nous avons structuré cette interface pour garantir une expérience fluide et sécurisée :
@@ -390,50 +305,8 @@ L'interface du questionnaire constitue une partie cruciale de l'application, per
 - **Sauvegarde Préliminaire de l'Audit** : En cas d'annulation de l'audit via le bouton "Annuler Audit," l'application supprime l'audit de la base de données. Cette approche garantit que seuls les audits complets sont conservés dans la base de données, évitant ainsi les enregistrements inutiles.
 - **Création de la Session audit** : Une fois que l'audit est sauvegardé, l'application crée une session appelée audit qui est égale à l'ID de l'audit en cours. Cette session permet de suivre l'état de l'audit même lors de la navigation ou du rafraîchissement de la page.
 - **Gestion de la Session lors de la Navigation** : Pour éviter la présence d'audits incomplets dans la base de données, l'application vérifie la session audit lors de chaque changement de page ou de rafraîchissement. Si la session est active, l'audit associé est supprimé de la base de données.
-
-` `$sql="Delete from audit where id\_A = ?";
-
-`        `$stmt\_insert = $conn->prepare($sql);
-
-`        `$stmt\_insert->bindParam(1, $\_SESSION["Audit"]);
-
-`        `$stmt\_insert->execute();
-
-`        `header("Location: menupage.php");
-
-`        `exit;
-
 - **Remplissage des Questions de l'Audit** : Une fois la gestion préliminaire effectuée, l'utilisateur peut commencer à remplir les questions liées à l'audit. Les questions sont récupérées à partir de la base de données et affichées pour que l'utilisateur puisse y répondre.
 - **Sauvegarde des Réponses** : Lorsque l'utilisateur termine de remplir les questions, l'application sauvegarde ces réponses dans la base de données, associées à l'identifiant unique de l'audit.
-
-for($i = 1; $i <= $nbr; $i++){
-
-`            `$id = $\_SESSION['Audit'];
-
-`            `$var1 = "cmnt$i";
-
-`            `$var1 = $\_POST[$var1];
-
-`            `if($i == 20){
-
-`                `InsertAnswertData($conn, NULL, $var1, $i, $id);
-
-`                `continue;
-
-`            `}
-
-`            `else{
-
-`                `$var = "qst$i";
-
-`                `$var = $\_POST[$var];
-
-`            `}
-
-`            `InsertAnswertData($conn, $var, $var1, $i, $id);
-
-`        `}
-
 Cette approche garantit que seuls les audits complets sont stockés dans la base de données et que les données sont gérées en toute sécurité. Elle permet également aux utilisateurs de reprendre là où ils se sont arrêtés en cas de changement de page ou de rafraîchissement, améliorant ainsi l'expérience utilisateur.
 
 
@@ -463,43 +336,6 @@ Le back-end des interfaces du tableau de bord englobe la gestion des sessions et
 
 - **Gestion des Sessions** : Tout comme dans les autres parties de l'application, nous utilisons la gestion de sessions pour suivre les états et les données des utilisateurs pendant leur navigation. Cela garantit que les données restent cohérentes et sécurisées, même en cas de rafraîchissement ou de changement de page.
 - **Transfert des Données vers le Front-End** : Lorsque l'utilisateur sélectionne un mois et une année spécifiques, le back-end collecte les données pertinentes à partir de la base de données en fonction de ces paramètres. Ces données sont ensuite formatées pour être envoyées au front-end.
-
-function chartByAtelier($conn,$M,$Y){
-
-`  `$sql = "SELECT atelier.atelier AS Atelier,  
-
-`  `(SUM(IF(reponse.reponse = 'NOK', 1, 0)) / COUNT(\*)) \* 100 AS NOKPercentage
-
-`  `FROM audit
-
-`  `JOIN poste ON audit.id\_Poste = poste.id\_P
-
-`  `JOIN module ON poste.id\_M = module.id\_M
-
-`  `JOIN zone ON module.id\_Z = zone.id\_Z
-
-`  `JOIN atelier ON atelier.id = zone.id\_Atelier
-
-`  `JOIN reponse ON reponse.id\_A = audit.id\_A
-
-`  `WHERE Reponse NOT LIKE 'NA' and MONTH(date) = ? and YEAR(date)= ?
-
-`  `GROUP BY atelier.atelier";
-
-`  `$stmt = $conn->prepare($sql);
-
-`  `$stmt->bindParam(1, $M);
-
-`  `$stmt->bindParam(2, $Y);
-
-`  `$stmt->execute();
-
-`  `$results = $stmt->fetchAll(PDO::FETCH\_ASSOC);
-
-`  `return $results;
-
-}
-
 - **Affichage des Données** : En fonction du choix de l'utilisateur (tableau ou graphique), les données sont traitées en conséquence :
   - **Tableau** : Si l'utilisateur choisit d'afficher les données sous forme de tableau, le backend envoie les données formatées sous forme de tableaux multidimensionnels au frontend. Le frontend utilise ces données pour générer un tableau structuré et informatif.
   - **Graphique avec Chart.js** : Si l'utilisateur opte pour un affichage graphique, le backend envoie les données au format compatible avec la bibliothèque Chart.js, qui est utilisée pour générer des graphiques interactifs. Les données sont structurées pour que Chart.js puisse créer des graphiques visuellement attrayants et significatifs.
@@ -529,49 +365,6 @@ Dans cette section, nous abordons le développement front-end et back-end de qua
   1. #### **Développement du Back-End**
 - **Planning** : Le back-end de la page "Planning" récupère les données nécessaires depuis la base de données. Il identifie les jours où des audits sont programmés et marque ces jours dans le calendrier de l'interface front-end. Cette opération assure que les utilisateurs ont une vue claire des jours d'audit à venir.
 - **Paramètre** : Concernant la page "Paramètre," le back-end est responsable de prendre les données modifiées du formulaire et de les envoyer à la base de données pour mise à jour. Cela garantit que les modifications apportées par les utilisateurs sont correctement enregistrées dans le système.
-
-` `if ($newPassword !== $cpwsd) {
-
-`            `echo "Error: New password and confirm password do not match.";
-
-`            `exit;}
-
-`            `$stmt = $conn->prepare("SELECT password FROM personne WHERE id\_P = :id");
-
-`            `$stmt->bindParam(':id', $id);
-
-`            `$stmt->execute();
-
-`            `$result = $stmt->fetch(PDO::FETCH\_ASSOC);
-
-`            `if ($result) {
-
-`                `$hashedPassword = $result['password'];
-
-`                `if (password\_verify($oldPassword, $hashedPassword)) {
-
-`                    `$hashedNewPassword = password\_hash($newPassword, PASSWORD\_DEFAULT);
-
-`                    `$stmt = $conn->prepare("UPDATE personne SET password = :password WHERE id\_P = :id");
-
-`                    `$stmt->bindParam(':password', $hashedNewPassword);
-
-`                    `$stmt->bindParam(':id', $id);
-
-`                    `$stmt->execute();
-
-`                `} else {
-
-`                    `echo "Error: Old password is incorrect.";
-
-`                `}
-
-`            `} else {
-
-`                `echo "Error: User not found.";
-
-`            `}
-
 1. #### **Captures d'écran des interfaces**
 ![Screenshot 2023-08-27 194003](./readme/Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.024.png)![Screenshot 2023-08-27 194034](./readme/Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.025.png)
 
@@ -605,19 +398,6 @@ La page "Utilisateur" est essentielle pour la gestion des comptes utilisateur pa
 Le back-end de la page "Utilisateur" se charge de gérer les interactions avec les comptes utilisateur :
 
 - **Suppression d'Utilisateur** : Lorsqu'un administrateur clique sur le bouton "Supprimer" associé à un utilisateur, le back-end supprime cet utilisateur de la base de données. Suite à cette action, l'administrateur est redirigé vers la page principale avec un message de succès indiquant que la suppression a été effectuée avec succès.
-
-` `$sql="DELETE FROM personne WHERE id\_P = ?";
-
-`    `$stmt=$conn->prepare($sql);
-
-`    `$stmt->bindParam(1,$\_GET['id\_p']);
-
-`    `$stmt->execute();
-
-`    `header("location: main.php?success=User has been deleted");
-
-`    `exit;
-
 - **Modification d'Utilisateur** : Si l'administrateur clique sur le bouton "Modifier" associé à un utilisateur, il est redirigé vers une page de modification dédiée. Cette page contient un formulaire pré-rempli avec les informations actuelles de l'utilisateur. L'administrateur peut apporter des modifications aux informations autres que l'ID (qui n'est pas modifiable). Le mot de passe n'est pas affiché dans le formulaire, pour des raisons de sécurité. Si des modifications sont apportées, l'administrateur peut soit soumettre le formulaire pour enregistrer les changements, soit revenir en arrière.
 
 La page "Utilisateur" offre une interface centralisée pour la gestion des comptes utilisateur. La combinaison du front-end et du back-end permet une manipulation aisée des données et garantit une expérience utilisateur fluide.
@@ -636,25 +416,6 @@ Le back-end de la page "Question" gère les interactions avec les questions et l
 
 - **Suppression de Question** : Lorsqu'un administrateur clique sur le bouton "Supprimer" associé à une question, le back-end supprime cette question de la base de données. Une fois l'action effectuée, l'administrateur est redirigé vers la page principale avec un message de succès indiquant que la question a été supprimée avec succès.
 - **Modification de Question** : Si l'administrateur clique sur le bouton "Modifier" associé à une question, il est redirigé vers une page de modification spécifique. Cette page contient un formulaire pré-rempli avec les informations actuelles de la question. L'administrateur peut modifier le contenu de la question et les options de réponse si nécessaire.
-
-function updateQuestiondata($id, $question, $id\_t){
-
-`    `$conn = connect();
-
-`    `$sql = "UPDATE questions SET  question=?, id\_t=? WHERE id\_q=?";
-
-`    `$stmt = $conn->prepare($sql);
-
-`    `$stmt->bindParam(1, $question);
-
-`    `$stmt->bindParam(2, $id\_t);
-
-`    `$stmt->bindParam(3, $id);
-
-`    `$stmt->execute();  
-
-}
-
 - **Ajout de Nouvelle Question** : Lorsque l'administrateur clique sur le bouton "Ajouter Question," il est redirigé vers une page dédiée où il peut créer une nouvelle question. Un formulaire permet de saisir le contenu de la question et son type.
 
 La page "Question" offre une interface centralisée pour la gestion des questions. En combinant le front-end et le back-end, nous permettons aux administrateurs d'ajouter, de modifier et de supprimer des questions de manière intuitive.
@@ -674,33 +435,6 @@ Le back-end de la page "Planning" gère les interactions avec les jours d'audit 
 
 - **Suppression d'un Jour** : Lorsqu'un administrateur clique sur le bouton "Supprimer" associé à un jour d'audit dans la colonne du tableau, le back-end permet de supprimer cette date de la base de données. Une fois cette action accomplie, l'administrateur est redirigé vers la page principale avec un message de succès indiquant que le jour a été supprimé avec succès.
 - **Ajout d'un Jour** : Lorsque l'administrateur clique sur le bouton "Soumettre," le back-end enregistre la date sélectionnée dans le champ d'entrée. Cette date est ensuite ajoutée au tableau des jours audits dans la base de données. L'administrateur peut voir le calendrier mis à jour avec la nouvelle date ajoutée.
-
-$sql = "SELECT MAX(id) as max\_id FROM a2djour";
-
-`    `$stmt = $conn->prepare($sql);
-
-`    `$stmt->execute();
-
-`    `$maxIdResult = $stmt->fetch(PDO::FETCH\_ASSOC);
-
-`    `$maxId = $maxIdResult["max\_id"];
-
-`    `$id = $maxId + 1;
-
-`    `$date = $\_POST['date-input'];
-
-`    `$sql\_insert = "INSERT INTO a2djour(day,id) VALUES (DATE\_FORMAT(?, '%Y-%m-%d'),?) ";
-
-`    `$stmt\_insert = $conn->prepare($sql\_insert);
-
-`    `$stmt\_insert->bindParam(1, $date);
-
-`    `$stmt\_insert->bindParam(2, $id);
-
-`    `$stmt\_insert->execute();
-
-`    `header("Location: planning.php?s=2");
-
 La page "Planning" offre une interface conviviale pour la gestion des plannings d'audits. En combinant le front-end et le back-end, nous offrons aux administrateurs la possibilité de visualiser, d'ajouter et de supprimer des jours d'audit de manière pratique et efficace.
 1. #### **Capture d’écran des interfaces** 
 ![Screenshot 2023-08-27 205229](./readme/Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.034.png)
@@ -716,29 +450,6 @@ La page "Audit" permet aux administrateurs de gérer les audits enregistrés dan
 Le back-end de la page "Audit" gère les interactions avec les audits enregistrés :
 
 - **Filtrage par Mois et Année** : Lorsque l'administrateur sélectionne un mois et une année dans les champs "Select," le back-end filtre les audits en fonction de ces critères pour afficher uniquement les audits correspondants.
-
-if (isset($\_GET['mois'])) {
-
-`        `$selectedMonth = $\_GET['mois'];
-
-`        `$selectedYear = $\_GET['annee'];
-
-`        `if (empty($selectedYear)) {
-
-`            `$selectedYear = date('Y');
-
-`        `}
-
-`        `$audits = getAuditsmy($conn, $selectedMonth, $selectedYear);
-
-`    `}
-
-`    `else{
-
-`    `$audits = getAudits($conn);
-
-`    `}
-
 - **Accès aux Données d'Audit** : En cliquant sur le bouton "Accéder" associé à un audit, l'administrateur est redirigé vers une page spécifique affichant les détails et les données de cet audit.
 - **Suppression d'Audit** : Lorsqu'un administrateur clique sur le bouton "Supprimer" associé à un audit, le back-end supprime cet audit de la base de données. Une fois cette action réalisée, l'administrateur est redirigé vers la page "Audit" mise à jour avec un message de succès indiquant que l'audit a été supprimé avec succès.
 
