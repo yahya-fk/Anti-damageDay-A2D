@@ -181,7 +181,7 @@ Chapitre 2 : Contexte général du projet Anti-Damage Day
 
 1. ## <a name="_toc144137565"></a><a name="_toc144149844"></a>**DIAGRAMMES DE SEQUENCE**
    1. ### <a name="_toc144137566"></a><a name="_toc144149845"></a>**DS CREATION DE COMPTE**
-(readme/Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.003.png)
+(./readme/Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.003.png)
 
 <a name="_toc144130670"></a>**Figure 47 DS création du compte A2D**
 1. ### <a name="_toc144137567"></a><a name="_toc144149846"></a>**DS LOG IN**
