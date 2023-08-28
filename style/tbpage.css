@@ -1,0 +1,25 @@
+#chartContainer {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#pieChart,#barchart {
+    max-width: 300px;
+    margin: 0 auto;
+}
+#hiddenh5{
+    display: none;
+}
+.responsive-table {
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+
+    .responsive-table {
+        font-size: 10px; 
+        width: 100px;
+        margin: auto;
+    }
+}

@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Lumanosimo:wght@400&display=swap');
+
+body{
+    position: relative;
+    width: 100%;
+}
+.image{
+    position: fixed;
+    height: 20%;
+    width: 100%;
+    bottom: 0%;
+    left: 50%;
+}
+.image img{
+    height: 100%;
+    width: 50%;
+}
+.imag{
+    width: 100%;
+    height: 30%;
+
+
+}
+.imag img{
+    width: 20rem;
+    height: 20rem;
+    right: 0;
+}
+.img-text{
+    font-family: 'Lumanosimo', serif;
+}
+h2{
+    color: #165F8C;
+    text-shadow: black  10px 2px 2px 2px;
+}
