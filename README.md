@@ -171,7 +171,7 @@ Pour répondre à ces besoins, nous avons envisagé de réaliser les diagrammes 
 
 <a name="_toc144130668"></a>**Figure 45 diagramme de classe du A2D**
 1. ## <a name="_toc144137564"></a><a name="_toc144149843"></a>**DIAGRAMME DE CAS D’UTILISATION**
-![Image Alt Text](./readme/Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.001.png)
+![Image Alt Text](./readme/Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.002.png)
 Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.002.png)
 
 <a name="_toc144130669"></a>**Figure 46 Diagramme de cas d'utilisation du A2D**
@@ -185,19 +185,19 @@ Chapitre 2 : Contexte général du projet Anti-Damage Day
 
 <a name="_toc144130670"></a>**Figure 47 DS création du compte A2D**
 1. ### <a name="_toc144137567"></a><a name="_toc144149846"></a>**DS LOG IN**
-![C:\Users\se39040\AppData\Local\Microsoft\Windows\INetCache\Content.Word\Screenshot 2023-08-24 153159.png](Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.004.png)
+![](./readme/Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.004.png)
 
 <a name="_toc144130671"></a>**Figure 48 DS log in A2D**
 1. ### <a name="_toc144137568"></a><a name="_toc144149847"></a>**DS Page AUDIT**
-![Screenshot 2023-08-24 153820](Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.005.png)
+![Screenshot 2023-08-24 153820](./readme/Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.005.png)
 
 <a name="_toc144130672"></a>**Figure 49 DS PAGE AUDIT**
 1. ### <a name="_toc144137569"></a><a name="_toc144149848"></a>**DS Gestion des AUDITS**
-![Screenshot 2023-08-27 123520](Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.006.png)
+![Screenshot 2023-08-27 123520](./readme/Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.006.png)
 
 <a name="_toc144130673"></a>**Figure 50 DS Gestion des audits  A2D**
 1. ### <a name="_toc144137570"></a><a name="_toc144149849"></a>**DS Gestion des QUESTIONS**
-![Screenshot 2023-08-27 125045](Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.007.png)
+![Screenshot 2023-08-27 125045](./readme/Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.007.png)
 
 <a name="_toc144130674"></a>**Figure 51 DS Gestion des QUESTIONS A2D**
 ### <a name="_toc144137571"></a><a name="_toc144149850"></a>**N.B**
@@ -214,7 +214,10 @@ L'environnement de développement choisi pour la réalisation de l'application �
 - Base de données : MYSQL
 - Outils de développement : Visual Studio Code, Git, Laragon, AdobePhotoshop
 
-![](Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.008.png)![](Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.009.png)![C:\Users\se39040\Downloads\ri32-logo-laragon.png](Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.010.png)![C:\Users\se39040\Downloads\download (1).png](Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.011.png)![C:\Users\se39040\Downloads\visual-studio-code7642.jpg](Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.012.jpeg)
+![](Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.008.png)![](./readme/Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.009.png)
+![ri32-logo-laragon.png](./readme/Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.010.png)
+![download (1).png](./readme/Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.011.png)
+![visual-studio-code7642.jpg](./readme/Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.012.jpeg)
 
 <a name="_toc144130675"></a>**Figure 52 Les outils utilisées**
 
@@ -226,7 +229,7 @@ Dans le cadre du développement du front-end de l'application, nous avons adopt�
 - **Templates Bootstrap** : Nous avons choisi d'utiliser des templates Bootstrap pour la mise en page et le design de l'interface utilisateur. Ces templates offrent une base solide pour la création de pages esthétiques et réactives, garantissant une expérience utilisateur cohérente sur différents appareils.
 - **Édition d'Images avec Adobe Photoshop** : Pour renforcer l'impact visuel, nous avons utilisé Adobe Photoshop pour créer une image principale captivante. Cette image a été soigneusement éditée en incorporant des dégradations subtiles sur le véhicule. En outre, nous avons ajouté des éléments symboliques tels que des cicatrices pour transmettre le message que le véhicule, tout comme un être humain, peut porter des traces de son histoire et de son vécu.
 
-![](Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.013.png)
+![](./readme/Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.013.png)
 
 <a name="_toc144130676"></a>**Figure 53 photo principale de A2D**
 
@@ -249,7 +252,8 @@ $\_SESSION['pnom'] = $fname;
 
 - **Validation des Données** : Avant d'insérer ou de mettre à jour des données dans la base de données, nous effectuons des vérifications rigoureuses pour garantir l'intégrité des données. Les données reçues sont validées et filtrées pour éviter les failles de sécurité telles que les injections SQL.
   1. #### **Captures d'écran des interfaces**
-![C:\Users\se39040\AppData\Local\Microsoft\Windows\INetCache\Content.Word\Screenshot 2023-08-24 174135.png](Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.014.png)![Screenshot 2023-08-24 173909](Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.015.png)
+![Screenshot 2023-08-24 174135.png](./readme/Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.014.png)
+![Screenshot 2023-08-24 173909](./readme/Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.015.png)
 
 <a name="_toc144130677"></a>**Figure 54 capture d'écran de page login et création du compte A2D**
 1. ### <a name="_toc144137576"></a><a name="_toc144149855"></a>**Page Principale**
@@ -285,7 +289,7 @@ Pour la gestion de la page de menu, nous avons mis en place une logique côté s
 `           `}
 
 `          `?>
-1. #### ![](Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.016.png)**Capture d'écran de l’interface**
+1. #### ![](./readme/Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.016.png)**Capture d'écran de l’interface**
 
 
 
@@ -297,7 +301,7 @@ Pour la gestion de la page de menu, nous avons mis en place une logique côté s
 
 
 <a name="_toc144130678"></a>**Figure 55 Capture d'écran Page MENU A2D**
-![](Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.017.png)
+![](./readme/Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.017.png)
 1. ### <a name="_toc144137577"></a><a name="_toc144149856"></a>**Page Audit**
    1. #### **Développement du Front-end**
       1. ##### **Interface Page Audit**
@@ -445,7 +449,7 @@ Cette approche garantit que seuls les audits complets sont stockés dans la base
 
 <a name="_toc144130679"></a>**Figure 56 Captures d'écran des interfaces Audit et Questionnaire A2D**
 
-![](Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.020.png)
+![](./readme/Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.020.png)
 
 1. ### <a name="_toc144137578"></a><a name="_toc144149857"></a>**Page Tableau de Bord**
    1. #### **Développement du Front-end**
@@ -511,7 +515,7 @@ En utilisant cette approche, nous permettons aux utilisateurs de visualiser et d
 <a name="_toc144130680"></a>**Figure 57 Captures d'écran des interfaces de Tableau de bord**
 
 <a name="_toc144130681"></a>**Figure 58 Capture d'écran des interfaces de Tutoriel Page A2D**
-![](Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.021.png)![](Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.022.png)![](Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.023.png)
+![](./readme/Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.021.png)![](./readme/Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.022.png)![](./readme/Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.023.png)
 
 
 
@@ -575,9 +579,9 @@ Dans cette section, nous abordons le développement front-end et back-end de qua
 `            `}
 
 1. #### **Captures d'écran des interfaces**
-![Screenshot 2023-08-27 194003](Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.024.png)![Screenshot 2023-08-27 194034](Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.025.png)
+![Screenshot 2023-08-27 194003](./readme/Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.024.png)![Screenshot 2023-08-27 194034](./readme/Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.025.png)
 
-![Screenshot 2023-08-27 194059](Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.026.png)![Screenshot 2023-08-27 194135](Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.027.png)
+![Screenshot 2023-08-27 194059](./readme/Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.026.png)![Screenshot 2023-08-27 194135](./readme/Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.027.png)
 
 <a name="_toc144130682"></a>**Figure 59 Captures d'écran des interfaces Planning Concept Paramètre tuto A2D**
 1. ## <a name="_toc144137580"></a><a name="_toc144149859"></a>**Développement du Partie utilisateur admin**
@@ -595,7 +599,7 @@ Le back-end de la page principale est principalement responsable de la gestion d
 
 La page principale offre une expérience utilisateur intuitive et facilite la navigation et la gestion pour les administrateurs. En intégrant le front-end et le back-end de manière transparente, nous assurons une interaction fluide avec l'ensemble du panneau de contrôle.
 1. #### **Capture d’écran de l’interface**
-![Screenshot 2023-08-27 200152](Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.028.png)
+![Screenshot 2023-08-27 200152](./readme/Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.028.png)
 
 <a name="_toc144130683"></a>**Figure 60 capture d'écran de la page principale Admin A2D**
 1. ### <a name="_toc144137582"></a><a name="_toc144149861"></a>**La Page User**
@@ -624,7 +628,7 @@ Le back-end de la page "Utilisateur" se charge de gérer les interactions avec l
 
 La page "Utilisateur" offre une interface centralisée pour la gestion des comptes utilisateur. La combinaison du front-end et du back-end permet une manipulation aisée des données et garantit une expérience utilisateur fluide.
 1. #### **Capture d’écran des interfaces**
-![Screenshot 2023-08-27 202747](Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.029.png)![Screenshot 2023-08-27 202907](Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.030.png)
+![Screenshot 2023-08-27 202747](./readme/Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.029.png)![Screenshot 2023-08-27 202907](./readme/Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.030.png)
 
 <a name="_toc144130684"></a>**Figure 61 Capture d'écran de page de gestion utilisateur**
 1. ### <a name="_toc144137583"></a><a name="_toc144149862"></a>**La Page Question**
@@ -661,9 +665,9 @@ function updateQuestiondata($id, $question, $id\_t){
 
 La page "Question" offre une interface centralisée pour la gestion des questions. En combinant le front-end et le back-end, nous permettons aux administrateurs d'ajouter, de modifier et de supprimer des questions de manière intuitive.
 1. #### **Capture d’écran des interfaces**
-![Screenshot 2023-08-27 203503](Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.031.png)
+![Screenshot 2023-08-27 203503](./readme/Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.031.png)
 
-![Screenshot 2023-08-27 203527](Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.032.png)![C:\Users\se39040\AppData\Local\Microsoft\Windows\INetCache\Content.Word\Screenshot 2023-08-27 203555.png](Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.033.png)
+![Screenshot 2023-08-27 203527](./readme/Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.032.png)![C:\Users\se39040\AppData\Local\Microsoft\Windows\INetCache\Content.Word\Screenshot 2023-08-27 203555.png](./readme/Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.033.png)
 
 <a name="_toc144130685"></a>**Figure 62 capture d’écran des interfaces gestion des questions A2D**
 1. ### <a name="_toc144137584"></a><a name="_toc144149863"></a>**La page Planning**
@@ -705,7 +709,7 @@ $sql = "SELECT MAX(id) as max\_id FROM a2djour";
 
 La page "Planning" offre une interface conviviale pour la gestion des plannings d'audits. En combinant le front-end et le back-end, nous offrons aux administrateurs la possibilité de visualiser, d'ajouter et de supprimer des jours d'audit de manière pratique et efficace.
 1. #### **Capture d’écran des interfaces** 
-![Screenshot 2023-08-27 205229](Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.034.png)
+![Screenshot 2023-08-27 205229](./readme/Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.034.png)
 
 <a name="_toc144130686"></a>**Figure 63 Capture d’écran de page gestion de planning A2D**
 1. ### <a name="_toc144137585"></a><a name="_toc144149864"></a>**La page Audit**
@@ -746,7 +750,7 @@ if (isset($\_GET['mois'])) {
 
 La page "Audit" offre une interface pratique pour la gestion des audits enregistrés. En intégrant le filtrage, l'accès aux données et la suppression d'audit, nous offrons aux administrateurs des moyens efficaces pour interagir avec les audits dans l'application.
 1. #### **Capture d’écran des interfaces:**
-![Screenshot 2023-08-27 210315](Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.035.png)![Screenshot 2023-08-27 210350](Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.036.png)
+![Screenshot 2023-08-27 210315](./readme/Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.035.png)![Screenshot 2023-08-27 210350](./readme/Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.036.png)
 1. # <a name="_toc144137586"></a><a name="_toc144149865"></a>**CONCLUSION**
 En somme, cette application d'automatisation d'audit représente une solution puissante pour optimiser la gestion des audits au sein de Stellantis Kenitra. Grâce à une conception soignée et à l'utilisation de technologies telles que HTML, CSS, JavaScript, Bootstrap et SQL, nous avons réussi à créer une plateforme conviviale et fonctionnelle. Les fonctionnalités de filtrage, d'accès aux données, et de planification des audits permettent une gestion plus efficace et une prise de décision éclairée. Cette application offre un moyen pratique et centralisé pour gérer les données d'audit, tout en améliorant la collaboration entre les équipes. En fin de compte, cette application répond aux besoins spécifiques de Stellantis Kenitra et contribue à une gestion plus transparente et efficace des processus d'audit.
 1. # <a name="_toc144137587"></a><a name="_toc144149866"></a>**ANTI-DAMAGE DAY VERSION DEMO**
