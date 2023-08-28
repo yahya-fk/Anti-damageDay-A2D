@@ -21,8 +21,8 @@
 [Installation Instructions: Anti-damageDay-A2D Project	4](#_toc144149831)
 
 [Introduction	5](#_toc144149832)
-[Anti-damage day version demo 5](#_toc144149866)
-[1.	Cahier des charges	6](#_toc144149833)
+
+[1.	Cahier des charges	5](#_toc144149833)
 
 [1.1	Fonctionnalités Requises :	6](#_toc144149834)
 
@@ -87,6 +87,9 @@
 [3.3.5	La page Audit	31](#_toc144149864)
 
 [4.	Conclusion	33](#_toc144149865)
+
+[5.	Anti-damage day version demo	33](#_toc144149866)
+
 [Conclusion génerale	34](#_toc144149867)
 
 
@@ -136,12 +139,6 @@ git clone https://github.com/YaHyA-FK/Anti-damageDay-A2D.git
 - Click on the appropriate links to register a new account if you don't have one, or login if you already have an account.
 - Now you're all set to explore the Anti-damageDay-A2D project on your local machine!
 - Please note that the exact steps might vary slightly based on your operating system and the software versions you're using.
-# <a name="_toc144137587"></a><a name="_toc144149866"></a>**ANTI-DAMAGE DAY VERSION DEMO**
-Cette version n'exécute aucune action réelle, mais elle vous permettra d'explorer les interfaces et certaines fonctionnalités de l'application.
-
-Lien :    [ANTI DAMAGE DAY (yahya-fk.github.io)](https://yahya-fk.github.io/Anti-damageDay/index.html)
-
-Lien du interface Admin :  [Login - Admin Panel (yahya-fk.github.io)](https://yahya-fk.github.io/Anti-damageDay/admin/)
 # <a name="_toc144149832"></a>**INTRODUCTION**
 L'essor de la technologie a considérablement transformé la manière dont les entreprises mènent leurs opérations et leurs processus internes. Parmi ces évolutions, l'informatisation des audits a émergé comme une initiative visant à améliorer l'efficacité, la précision et la traçabilité de l'évaluation des performances organisationnelles. Cependant, avec cette transition vers l'automatisation des audits, surgissent une série de défis complexes qui nécessitent une attention minutieuse. Cette étude se penche sur l'élaboration d'une application novatrice visant à collecter, traiter et visualiser les données d'audit de manière méthodique, tout en offrant une perspective allant de l'ensemble global de données jusqu'aux détails les plus spécifiques au moyen de diagrammes perspicaces. Dans ce contexte, cette APP explore les défis essentiels liés à la fiabilité des données collectées, à la sécurité des informations sensibles, à la variété des sources de données et à l'évolutivité de l'application, dans le but de parvenir à une solution complète et performante pour l'informatisation d'audit.
 1. # <a name="_toc144137554"></a><a name="_toc144149833"></a>**CAHIER DES CHARGES** 
@@ -461,6 +458,12 @@ La page "Audit" offre une interface pratique pour la gestion des audits enregist
 ![Screenshot 2023-08-27 210315](./readme/Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.035.png)![Screenshot 2023-08-27 210350](./readme/Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.036.png)
 1. # <a name="_toc144137586"></a><a name="_toc144149865"></a>**CONCLUSION**
 En somme, cette application d'automatisation d'audit représente une solution puissante pour optimiser la gestion des audits au sein de Stellantis Kenitra. Grâce à une conception soignée et à l'utilisation de technologies telles que HTML, CSS, JavaScript, Bootstrap et SQL, nous avons réussi à créer une plateforme conviviale et fonctionnelle. Les fonctionnalités de filtrage, d'accès aux données, et de planification des audits permettent une gestion plus efficace et une prise de décision éclairée. Cette application offre un moyen pratique et centralisé pour gérer les données d'audit, tout en améliorant la collaboration entre les équipes. En fin de compte, cette application répond aux besoins spécifiques de Stellantis Kenitra et contribue à une gestion plus transparente et efficace des processus d'audit.
+1. # <a name="_toc144137587"></a><a name="_toc144149866"></a>**ANTI-DAMAGE DAY VERSION DEMO**
+Cette version n'exécute aucune action réelle, mais elle vous permettra d'explorer les interfaces et certaines fonctionnalités de l'application.
+
+Lien :    [ANTI DAMAGE DAY (yahya-fk.github.io)](https://yahya-fk.github.io/Anti-damageDay/index.html)
+
+Lien du interface Admin :  [Login - Admin Panel (yahya-fk.github.io)](https://yahya-fk.github.io/Anti-damageDay/admin/)
 # <a name="_toc144137588"></a><a name="_toc144149867"></a>**CONCLUSION GÉNERALE**
 En achevant ce projet de conception et de développement d'une application d'automatisation d'audit, nous avons atteint nos objectifs en créant une plateforme robuste et conviviale pour la gestion efficace des audits au sein de l'environnement Stellantis Kenitra. À travers l'implémentation de différentes fonctionnalités, des pages d'interface aux opérations en back-end, notre équipe a travaillé avec diligence pour répondre aux besoins spécifiques de l'entreprise.
 
