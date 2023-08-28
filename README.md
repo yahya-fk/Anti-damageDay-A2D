@@ -166,13 +166,11 @@ Pour répondre à ces besoins, nous avons envisagé de réaliser les diagrammes 
 
 
 1. ## <a name="_toc144137563"></a><a name="_toc144149842"></a>**DIAGRAMME DE CLASSE** 
-![Image Alt Text](./readme/Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.001.png)
-
+![Screenshot 2023-08-24 164804](./readme/Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.001.png)
 
 <a name="_toc144130668"></a>**Figure 45 diagramme de classe du A2D**
 1. ## <a name="_toc144137564"></a><a name="_toc144149843"></a>**DIAGRAMME DE CAS D’UTILISATION**
-![Image Alt Text](./readme/Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.002.png)
-Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.002.png)
+![Screenshot 2023-08-24 165123](./readme/Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.002.png)
 
 <a name="_toc144130669"></a>**Figure 46 Diagramme de cas d'utilisation du A2D**
 
@@ -181,11 +179,11 @@ Chapitre 2 : Contexte général du projet Anti-Damage Day
 
 1. ## <a name="_toc144137565"></a><a name="_toc144149844"></a>**DIAGRAMMES DE SEQUENCE**
    1. ### <a name="_toc144137566"></a><a name="_toc144149845"></a>**DS CREATION DE COMPTE**
-(./readme/Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.003.png)
+![Screenshot 2023-08-24 153453](./readme/Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.003.png)
 
 <a name="_toc144130670"></a>**Figure 47 DS création du compte A2D**
 1. ### <a name="_toc144137567"></a><a name="_toc144149846"></a>**DS LOG IN**
-![](./readme/Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.004.png)
+![Screenshot 2023-08-24 153159.png](./readme/Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.004.png)
 
 <a name="_toc144130671"></a>**Figure 48 DS log in A2D**
 1. ### <a name="_toc144137568"></a><a name="_toc144149847"></a>**DS Page AUDIT**
@@ -214,10 +212,7 @@ L'environnement de développement choisi pour la réalisation de l'application �
 - Base de données : MYSQL
 - Outils de développement : Visual Studio Code, Git, Laragon, AdobePhotoshop
 
-![](./readme/Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.008.png)![](./readme/Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.009.png)
-![ri32-logo-laragon.png](./readme/Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.010.png)
-![download (1).png](./readme/Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.011.png)
-![visual-studio-code7642.jpg](./readme/Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.012.jpeg)
+![](./readme/Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.008.png)![](./readme/Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.009.png)![C:\Users\se39040\Downloads\ri32-logo-laragon.png](./readme/Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.010.png)![C:\Users\se39040\Downloads\download (1).png](./readme/Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.011.png)![C:\Users\se39040\Downloads\visual-studio-code7642.jpg]./readme/(Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.012.jpeg)
 
 <a name="_toc144130675"></a>**Figure 52 Les outils utilisées**
 
@@ -252,8 +247,7 @@ $\_SESSION['pnom'] = $fname;
 
 - **Validation des Données** : Avant d'insérer ou de mettre à jour des données dans la base de données, nous effectuons des vérifications rigoureuses pour garantir l'intégrité des données. Les données reçues sont validées et filtrées pour éviter les failles de sécurité telles que les injections SQL.
   1. #### **Captures d'écran des interfaces**
-![Screenshot 2023-08-24 174135.png](./readme/Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.014.png)
-![Screenshot 2023-08-24 173909](./readme/Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.015.png)
+![Screenshot 2023-08-24 174135.png](./readme/Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.014.png)![Screenshot 2023-08-24 173909](./readme/Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.015.png)
 
 <a name="_toc144130677"></a>**Figure 54 capture d'écran de page login et création du compte A2D**
 1. ### <a name="_toc144137576"></a><a name="_toc144149855"></a>**Page Principale**
@@ -381,7 +375,7 @@ let myjson=JSON.stringify(tab)
 
 `    `document.getElementById("Zone").innerHTML+=html;
 
-`    `document.getElementById("Atelier").value=Tab[0].idAtelier
+`    `document.getElementById("Atelier").value=Tab[0].idAtelier</script>
 
 Ce processus est répété pour chaque niveau de sélection dans les éléments select tels que "**Atelier**," "**Module**," "**UEP**," et "**Poste**".
 1. ##### **Interface Page Questionnaire**
@@ -443,9 +437,9 @@ for($i = 1; $i <= $nbr; $i++){
 Cette approche garantit que seuls les audits complets sont stockés dans la base de données et que les données sont gérées en toute sécurité. Elle permet également aux utilisateurs de reprendre là où ils se sont arrêtés en cas de changement de page ou de rafraîchissement, améliorant ainsi l'expérience utilisateur.
 
 
-1. #### ![](Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.018.png)**Captures d'écran des interfaces**	
+1. #### ![](./readme/Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.018.png)**Captures d'écran des interfaces**	
 
-![Screenshot 2023-08-25 135235](Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.019.png)
+![Screenshot 2023-08-25 135235](./readme/Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.019.png)
 
 <a name="_toc144130679"></a>**Figure 56 Captures d'écran des interfaces Audit et Questionnaire A2D**
 
