@@ -8,6 +8,15 @@
 
 
 
+1. # <a name="_toc144137587"></a><a name="_toc144149866"></a>**ANTI-DAMAGE DAY VERSION DEMO**
+Cette version n'exécute aucune action réelle, mais elle vous permettra d'explorer les interfaces et certaines fonctionnalités de l'application.
+
+Lien :    [ANTI DAMAGE DAY (yahya-fk.github.io)](https://yahya-fk.github.io/Anti-damageDay/index.html)
+
+Lien du interface Admin :  [Login - Admin Panel (yahya-fk.github.io)](https://yahya-fk.github.io/Anti-damageDay/admin/)
+
+
+
 
 
 
@@ -457,12 +466,7 @@ La page "Audit" offre une interface pratique pour la gestion des audits enregist
 ![Screenshot 2023-08-27 210315](./readme/Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.035.png)![Screenshot 2023-08-27 210350](./readme/Aspose.Words.9e060543-d21e-4f0d-bbf8-8a58c0aa3229.036.png)
 1. # <a name="_toc144137586"></a><a name="_toc144149865"></a>**CONCLUSION**
 En somme, cette application d'automatisation d'audit représente une solution puissante pour optimiser la gestion des audits au sein de Stellantis Kenitra. Grâce à une conception soignée et à l'utilisation de technologies telles que HTML, CSS, JavaScript, Bootstrap et SQL, nous avons réussi à créer une plateforme conviviale et fonctionnelle. Les fonctionnalités de filtrage, d'accès aux données, et de planification des audits permettent une gestion plus efficace et une prise de décision éclairée. Cette application offre un moyen pratique et centralisé pour gérer les données d'audit, tout en améliorant la collaboration entre les équipes. En fin de compte, cette application répond aux besoins spécifiques de Stellantis Kenitra et contribue à une gestion plus transparente et efficace des processus d'audit.
-1. # <a name="_toc144137587"></a><a name="_toc144149866"></a>**ANTI-DAMAGE DAY VERSION DEMO**
-Cette version n'exécute aucune action réelle, mais elle vous permettra d'explorer les interfaces et certaines fonctionnalités de l'application.
 
-Lien :    [ANTI DAMAGE DAY (yahya-fk.github.io)](https://yahya-fk.github.io/Anti-damageDay/index.html)
-
-Lien du interface Admin :  [Login - Admin Panel (yahya-fk.github.io)](https://yahya-fk.github.io/Anti-damageDay/admin/)
 # <a name="_toc144137588"></a><a name="_toc144149867"></a>**CONCLUSION GÉNERALE**
 En achevant ce projet de conception et de développement d'une application d'automatisation d'audit, nous avons atteint nos objectifs en créant une plateforme robuste et conviviale pour la gestion efficace des audits au sein de l'environnement Stellantis Kenitra. À travers l'implémentation de différentes fonctionnalités, des pages d'interface aux opérations en back-end, notre équipe a travaillé avec diligence pour répondre aux besoins spécifiques de l'entreprise.
 
